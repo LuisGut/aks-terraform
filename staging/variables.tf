@@ -1,23 +1,23 @@
-variable rg_name {
-
+variable "app_id" {
+  description = "Azure k8s Service Cluster service principal"
 }
 
-variable region {
-
+variable "password" {
+  description = "Azure k8s Service Cluster password"
 }
 
-variable cluster_name {
-
+variable "region" {
+  description = "Region"  
 }
 
-variable vm_size {
-  
+variable "rg_name" {
+  description = "Resource group name"
 }
 
-variable app_id {
-  
+variable "cluster_name" {
+  description = "Aks cluster name"
 }
 
-variable password {
-  
+variable "vm_size" {
+  description = "vm size"
 }

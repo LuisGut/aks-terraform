@@ -1,0 +1,6 @@
+app_id        = ""
+password      = ""
+rg_name       = ""
+region        = ""
+cluster_name  = ""
+vm_size       = ""
